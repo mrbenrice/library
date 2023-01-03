@@ -1,0 +1,32 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputcontainer {
+    width: 50vw;
+}
+
+.cardcontainer {
+    height: 50vh;
+    width: 50vw;
+}
+
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(5, 20vw);
+    grid-template-rows: auto;
+}
+
+.carousel>div{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 1px;
+}
