@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<link rel="stylesheet" href="./styles.css">
+<script src="./index.js" defer></script>
+<body>
+    <div class="main-container">
+        <div class="bookshelf"></div>
+        <div class="add-book">
+            <form action="./index.html" method="get">
+                <label for="bookName">Book Name</label>               
+                <input type="text" name="bookName">
+                <label for="bookAuthor">Book Author</label>
+                <input type="text" name="bookAuthor"> 
+                <label for="bookPages">How many pages?</label>              
+                <input type="number" name="bookPages">               
+                <label for="bookDesc">A short description (up to 100 characters!)</label>
+                <input type="text" maxlength="100" minlength="1" name="bookDesc">   
+                <label for="bookRate">Book rating?</label>            
+                <input type="number" max="5" min="0" name="bookRate">               
+                <button class="add-book-btn">Add Book!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

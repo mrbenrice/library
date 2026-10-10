@@ -1,0 +1,20 @@
+.bookshelf>div {
+    color: white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+.card-div-short {
+    background-color: red;
+
+}
+.card-div-mid {
+    background-color: green;
+}
+.card-div-long {
+    background-color: blue;
+}
+.add-book-btn {
+    background-color: lightblue;
+}
