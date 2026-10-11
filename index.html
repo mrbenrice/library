@@ -9,8 +9,17 @@
 <script src="./index.js" defer></script>
 <body>
     <div class="main-container">
+        <div class="header">
+            <div class="left-header">Library!</div>
+            <div class="right-header">
+                <a href="#">Home</a>
+                <a href="#">More</a>
+                <a href="#">Profile</a>
+            </div>
+        </div>
+        <button class="display-add-book">Add book!</button>
         <div class="bookshelf"></div>
-        <div class="add-book">
+        <div class="add-book-hidden">
             <form action="./index.html" method="get">
                 <label for="bookName">Book Name</label>               
                 <input type="text" name="bookName">
@@ -21,7 +30,9 @@
                 <label for="bookDesc">A short description (up to 100 characters!)</label>
                 <input type="text" maxlength="100" minlength="1" name="bookDesc">   
                 <label for="bookRate">Book rating?</label>            
-                <input type="number" max="5" min="0" name="bookRate">               
+                <input type="number" max="5" min="0" name="bookRate">     
+                <label for="bookRead" style='display:none'>Read?</label>
+                <input type="checkbox" name="bookRead" value="read" style="display:none">          
                 <button class="add-book-btn">Add Book!</button>
             </form>
         </div>
